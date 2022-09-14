@@ -18,13 +18,22 @@ const Footer = () => {
           className={"ml-1"}
           href="https://www.facebook.com/PlesniStudioDanceBox"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fab fa-facebook fa-2x fb"></i>
         </a>
-        <a href="https://www.instagram.com/danceboxsplit/" target="_blank">
+        <a
+          href="https://www.instagram.com/danceboxsplit/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-instagram fa-2x ig mx-3"></i>
         </a>
-        <a href="https://www.youtube.com/user/25imami/videos" target="_blank">
+        <a
+          href="https://www.youtube.com/user/25imami/videos"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-youtube fa-2x yt"></i>
         </a>
       </div>

@@ -74,7 +74,9 @@ const Projects = () => {
             <div className="info">
               <h3>Dubrovnik Dance explosion 2022</h3>
               <p>
-                Nakon dvije godine "apstinencije" napokon smo došli na svoje.
+                {
+                  'Nakon dvije godine "apstinencije" napokon smo došli na svoje.'
+                }
               </p>
             </div>
             <i className="fas fa-plus"></i>
