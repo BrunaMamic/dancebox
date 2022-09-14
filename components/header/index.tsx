@@ -1,13 +1,15 @@
 import exp from "constants";
+import { useState } from "react";
 
 const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
+  const [navbarMobile, setNavBarMobile] = useState(false);
   return (
     <header className="header">
       <a href="#" className="logo">
         <img src="static/logo.png" width="200" height="100" alt={"logo"} />
       </a>
 
-      <nav className="navbar">
+      <nav className={`navbar ${navbarMobile ? "active" : ""}`}>
         <a href="#home">Nalovnica</a>
         <a href="#about">O nama</a>
         <a href="#services">Program</a>
@@ -17,7 +19,11 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
       </nav>
 
       <div className="icons">
-        <div id="menu-btn" className="fas fa-bars"></div>
+        <div
+          id="menu-btn"
+          onClick={() => setNavBarMobile(!navbarMobile)}
+          className="fas fa-bars"
+        ></div>
         <div
           onClick={() => setContactSideBarOpen(!contactSideBarOpen)}
           id="info-btn"
