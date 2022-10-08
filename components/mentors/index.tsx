@@ -73,9 +73,8 @@ const Mentors = () => {
                   <br />
                   <br />
                   Stečeno plesno iskustvo i znanje pomogli su joj pri upisu na
-                  Akademiju dramskih umjetnosti u Zagrebu gdje je trenutno
-                  student treće godine na odsjeku Suvremeni ples/nastavnički
-                  smjer.
+                  Akademiju dramskih umjetnosti u Zagrebu na odsjeku Suvremeni ples/nastavnički
+                  smjer koji završava 2022. godine.
                   <br />
                   <br />
                   Barbara intenzivno sudjeluje u radu Studija kao koreograf i

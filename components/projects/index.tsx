@@ -5,13 +5,45 @@ import "lightgallery/css/lg-thumbnail.css";
 
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
+import { Router, useRouter } from "next/router";
 
 const Projects = () => {
+  const openFacebookGallery = () => {
+    window.open('https://www.facebook.com/PlesniStudioDanceBox/photos', '_blank')
+  };
+
   return (
     <section className="projects" id="projects">
       <h1 className="heading"> Najnoviji projekti </h1>
 
-      <LightGallery elementClassNames={"box-container"}>
+      <LightGallery onBeforeOpen={() => openFacebookGallery()} elementClassNames={"box-container"}>
+        <a href="static/cure.jpg" onClick={()=>console.log('hello world')} className="box">
+          <div className="image">
+            <img src="static/cure.jpg" alt=""/>
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Race for the cure</h3>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+
+        </a>
+
+        <a href="static/projekt10.jpg" className="box">
+          <div className="image">
+            <img src="static/projekt10.jpg" alt=""/>
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Proslava 10. godišnjice kluba</h3>
+              <p>3.9.2022. <br/>
+                Photo by @mdphotography18</p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
         <a href="static/projekti.jpg" className="box">
           <div className="image">
             <img src="static/projekti.jpg" alt="" />

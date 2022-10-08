@@ -5,7 +5,7 @@ const Info = () => {
 
       <div className="row">
         <div className="video">
-          <video src="static/video.mp4" autoPlay muted loop>
+          <video src="static/video.mp4" controls={true}  muted>
             <source src="static/video.mp4" type="video/mp4" />
           </video>
         </div>

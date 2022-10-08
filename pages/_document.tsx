@@ -4,7 +4,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 export default class extends Document {
   render(): JSX.Element {
     return (
-      <Html className="h-100">
+      <Html className="">
         <meta name="viewport" content="width=device-width, user-scalable=yes" />
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

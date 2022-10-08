@@ -27,8 +27,8 @@ const ContactSidebar = ({ setContactSideBarOpen }: any) => {
       </div>
 
       <div className="share">
-        <a href="#" className="fab fa-facebook-f"></a>
-        <a href="#" className="fab fa-instagram"></a>
+        <a href="https://www.facebook.com/PlesniStudioDanceBox" target={'_blank'} rel={'noreferrer'} className="fab fa-facebook-f"></a>
+        <a href="https://www.instagram.com/danceboxsplit/" target={'_blank'} rel={'noreferrer'} className="fab fa-instagram"></a>
       </div>
     </div>
   );

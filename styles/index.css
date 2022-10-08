@@ -6,39 +6,40 @@
   --white:#fff;
   --light-color:#666;
   --light-bg:#eee;
-  background: #76BA99;
-  background: #76BA99;
-  background: #67b18d;
-  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-  --border:.1rem solid rgba(0,0,0,.3);
+  /*background: #76BA99;*/
+  /*background: #76BA99;*/
+  /*background: #67b18d;*/
+  /*--box-shadow:0 .5rem 1rem rgba(0,0,0,.1);*/
+  /*--border:.1rem solid rgba(0,0,0,.3);*/
+  width: 100vw;
 }
 
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  /*-webkit-box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
   outline: none;
   border: none;
   text-decoration: none !important;
 }
 
 html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 7rem;
+  /*font-size: 62.5%;*/
+  /*overflow-x: hidden;*/
+  /*scroll-behavior: smooth;*/
+  /*scroll-padding-top: 7rem;*/
 }
 
 body{
-  background: #146356;
+  /*background: #146356;*/
 }
 
 header {
   color: #FFF1BD;
   /*background-image: #146356;  */
-  font-family: cursive;
+  /*font-family: cursive;*/
 }
 
 section {
@@ -86,7 +87,7 @@ section {
 
 .header {
   /* background-color: linear-gradient(to right, #4ca2af, #2C3E50) !important; */
-  background-color: #76BA99;
+  background-color: #105348;
   position: sticky;
   top: 0;
   left: 0;
@@ -148,12 +149,11 @@ section {
   position: absolute;
   top: 120%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 70rem;
   background: var(--white);
-  -webkit-box-shadow: var(--box-shadow);
-  box-shadow: var(--box-shadow);
+  /*-webkit-box-shadow: var(--box-shadow);*/
+  /*box-shadow: var(--box-shadow);*/
   padding: 1rem;
   display: none;
   -webkit-box-align: center;
@@ -191,7 +191,8 @@ section {
 
 .contact-info {
   color: white;
-  background-image: linear-gradient(to right, #146356, #CA955C);
+  /*background-image: linear-gradient(to right, #146356, #CA955C);*/
+  background: #146356;
   position: fixed;
   top: 0;
   right: 0;
@@ -258,7 +259,7 @@ section {
 
 .contact-info .share {
   padding-top: 2rem;
-  border-top: var(--border);
+  /*border-top: var(--border);*/
   margin-top: 1rem;
 }
 
@@ -274,7 +275,7 @@ section {
 }
 
 .contact-info .share a:hover {
-  background: var(--black);
+  /*background: var(--black);*/
   color: var(--white);
 }
 
@@ -366,7 +367,7 @@ h3 span {
 
 .about .row .content p {
   font-size: 2rem;
-  font-family: cursive;
+  /*font-family: cursive;*/
   color: #EDDFB3;
   line-height: 2;
   padding: 1rem 0;
@@ -374,7 +375,7 @@ h3 span {
 
 .about .content .btn{
   font-size: 2rem;
-  font-family: cursive;
+  /*font-family: cursive;*/
   background-color: #0a2c1c70;
   color: white;
 }
@@ -398,7 +399,7 @@ h3 span {
 .services {
   color: rgb(170, 126, 126);;
   background-color: #0e4b41;
-  font-family: cursive;
+  /*font-family: cursive;*/
   display: flex;
   justify-content: center;
 }
@@ -410,13 +411,13 @@ h3 span {
 }
 
 .services .box-container .box {
-  flex-grow: 1 30rem;
-  width: 25rem;
+  flex-grow: 1;
+  /*width: 25rem;*/
   text-align: center;
   padding: 3rem;
   border: .1rem solid rgba(0,0,0,.3);
   margin: 2rem;
-  font-family: cursive;
+  /*font-family: cursive;*/
 }
 
 .services .box-container .box h3 {
@@ -424,14 +425,14 @@ h3 span {
   color: rgb(170, 126, 126);
   text-transform: capitalize;
   padding: 1rem 1rem;
-  font-family: cursive;
+  /*font-family: cursive;*/
 }
 
 .services .box-container .box p {
   font-size: 1.8rem;
   color: #bfc9c5;
   line-height: 2;
-  font-family: cursive;
+  /*font-family: cursive;*/
 
 }
 
@@ -530,6 +531,7 @@ h3 span {
 .voditelji .box-container .box {
   cursor: initial;
   width: 55rem;
+  padding: 1rem;
 }
 
 .voditelji .box-container .box .image {
@@ -611,7 +613,6 @@ h3 span {
   margin: .7rem 0;
   width: 100%;
   padding: 1.5rem 0;
-  border-bottom: var(--border);
   font-size: 1.6rem;
   color: var(--light-color);
 }
@@ -657,7 +658,8 @@ h3 span {
   }
   .header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    background-image: linear-gradient(to right, #4CA1AF, #2C3E50) !important;
+    /*background-image: linear-gradient(to right, #4CA1AF, #2C3E50) !important;*/
+    background: #105348;
 
   }
   .header .navbar a {
@@ -696,7 +698,7 @@ h3 span {
 .site-footer
 {
   background: #062520;
-  padding:40px 220px 20px;
+  padding:0 10% 20px;
   font-size:15px;
   line-height:24px;
   color:#bdbdbd;

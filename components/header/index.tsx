@@ -30,7 +30,6 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
           className="fas fa-info-circle"
         ></div>
         <div id="search-btn" className="fas fa-search"></div>
-        <div id="login-btn" className="fas fa-user"></div>
       </div>
 
       <form action="" className="search-form">
