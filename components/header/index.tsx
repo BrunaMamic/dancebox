@@ -32,15 +32,7 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
         <div id="search-btn" className="fas fa-search"></div>
       </div>
 
-      <form action="" className="search-form">
-        <input
-          type="search"
-          name=""
-          placeholder="search here..."
-          id="search-box"
-        />
-        <label htmlFor="search-box" className="fas fa-search"></label>
-      </form>
+      
     </header>
   );
 };

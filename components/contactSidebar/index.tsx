@@ -16,8 +16,7 @@ const ContactSidebar = ({ setContactSideBarOpen }: any) => {
       <div className="info">
         <i className="fas fa-envelope"></i>
         <h3>Email</h3>
-        <p>ines.mamic1@gmail.com</p>
-        <p>danceboxsplit@gmail.com</p>
+        <p>danceboxsplit1@gmail.com</p>
       </div>
 
       <div className="info">

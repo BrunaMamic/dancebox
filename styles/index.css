@@ -423,7 +423,6 @@ h3 span {
 .services .box-container .box h3 {
   font-size: 1.9rem;
   color: rgb(170, 126, 126);
-  text-transform: capitalize;
   padding: 1rem 1rem;
   /*font-family: cursive;*/
 }
@@ -495,7 +494,7 @@ h3 span {
 .projects .box-container .box .content .info h3 {
   font-size: 1.7rem;
   color: #0d4138;
-  text-transform: capitalize;
+
 }
 
 .projects .box-container .box .content .info p {
@@ -563,12 +562,10 @@ h3 span {
 
 .voditelji .box-container .box .content .info h3 {
   font-size: 2.5rem;
-  text-transform: capitalize;
 }
 
 .voditelji .box-container .box .content .info .caption {
   font-size: 1.5rem;
-  text-transform: capitalize;
 }
 
 .contact {

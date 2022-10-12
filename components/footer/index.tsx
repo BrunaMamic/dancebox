@@ -10,7 +10,7 @@ const Footer = () => {
           <br />
           Trodhemska 10, 21000 Split
           <br />
-          danceboxsplit@gmail.com
+          danceboxsplit1@gmail.com
         </p>
       </div>
       <div className="social-container">

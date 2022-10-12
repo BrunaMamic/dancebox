@@ -50,7 +50,7 @@ const Projects = () => {
           </div>
           <div className="content">
             <div className="info">
-              <h3>Šibenski festival</h3>
+              <h3>Šibenski plesni festival</h3>
               <p>
                 Čestitke svim našim voditeljima i plesačima koji su uložili
                 izniman trud i energiju kako bi ova godina bila uspješna...
