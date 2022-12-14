@@ -1,4 +1,3 @@
-import exp from "constants";
 import { useState } from "react";
 
 const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
@@ -10,7 +9,7 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
       </a>
 
       <nav className={`navbar ${navbarMobile ? "active" : ""}`}>
-        <a href="#home">Nalovnica</a>
+        <a href="#home">Naslovnica</a>
         <a href="#about">O nama</a>
         <a href="#services">Program</a>
         <a href="#projects">Projekti</a>
