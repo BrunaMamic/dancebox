@@ -8,7 +8,7 @@ const Info = () => {
           {/* <video src="static/video2022.mp4" controls={true}  muted>
             <source src="static/video.mp4" type="video/mp4" />
           </video> */}
-          <img src="static/info.jpg" alt="" />
+          <img  src="static/info.jpg" alt="" />
         </div>
 
         <div className="content">
