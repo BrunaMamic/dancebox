@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
+const Header = ({ setContactSideBarOpen, contactSideBarOpen, setDocSidebarOpen, docSidebarOpen }: any) => {
   const [navbarMobile, setNavBarMobile] = useState(false);
   return (
     <header className="header">
@@ -27,6 +27,12 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen }: any) => {
           onClick={() => setContactSideBarOpen(!contactSideBarOpen)}
           id="info-btn"
           className="fas fa-info-circle"
+        ></div>
+
+        <div
+          onClick={() => setDocSidebarOpen(!docSidebarOpen)}
+          id="document-btn"
+          className="fa fa-file-text-o"
         ></div>
         <div id="search-btn" className="fas fa-search"></div>
       </div>

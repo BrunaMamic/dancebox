@@ -4,6 +4,7 @@ import type { NextPage } from "next";
 // import lightGallery from "lightgallery";
 import Header from "../components/header";
 import ContactSidebar from "../components/contactSidebar";
+import DocSidebar from "../components/docSidebar";
 import Home from "../components/home";
 import Info from "../components/info";
 import Services from "../components/services";
@@ -15,15 +16,23 @@ import { useState } from "react";
 
 const App: NextPage = () => {
   const [contactSideBarOpen, setContactSideBarOpen] = useState(false);
+  const [docSidebarOpen, setDocSidebarOpen] = useState(false);
 
   return (
     <div>
       <Header
         contactSideBarOpen={contactSideBarOpen}
         setContactSideBarOpen={setContactSideBarOpen}
+
+        docSidebarOpen={docSidebarOpen}
+        setDocSidebarOpen={setDocSidebarOpen}
       />
       {contactSideBarOpen && (
         <ContactSidebar setContactSideBarOpen={setContactSideBarOpen} />
+      )}
+
+      {docSidebarOpen && (
+        <DocSidebar setDocSidebarOpen={setDocSidebarOpen} />
       )}
       <Home />
       <Info />

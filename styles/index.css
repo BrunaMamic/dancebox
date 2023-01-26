@@ -23,6 +23,7 @@
   outline: none;
   border: none;
   text-decoration: none !important;
+
 }
 
 html {
@@ -34,6 +35,7 @@ html {
 
 body{
   /*background: #146356;*/
+  width: 100vw;
 }
 
 header {
@@ -44,6 +46,7 @@ header {
 
 section {
   padding: 5rem 10%;
+  width: 100vw;
 }
 
 .heading {
@@ -279,6 +282,25 @@ section {
   color: var(--white);
 }
 
+.contact-info h2{
+  margin-left: 10px;
+  margin-right: 1000px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.contact-info .pravilnik{
+  margin-left: 10px;
+  margin-right: 100px;
+  font-size: 1.5rem;
+}
+
+.contact-info .pravilnik .fa{
+  font-size: 3rem;
+  color: white;
+  margin-left: 10px;
+}
+
 .home {
   padding: 0;
   color: #cab39e;
@@ -314,9 +336,15 @@ h3 span {
 
 .home .slide .content a {
   font-size: 3.1rem;
-  color: var(--light-color);
+  color: #cab39e;
   line-height: 2;
   padding: 1rem 0;
+}
+
+.home .slide .content a:hover{
+  border-color: #cab39e;
+  border-style: double;
+ 
 }
 
 .home .swiper-button-next,
@@ -353,6 +381,7 @@ h3 span {
 .about .row .video {
   flex: 1 1 41rem;
   margin-right: 1rem;
+  transition: .2s linear;
 }
 
 .about .row .video video {

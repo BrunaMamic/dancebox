@@ -22,6 +22,21 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/projekti12.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti12.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Produkcija 2022</h3>
+              <p>Održana je 4. po redu produkcija naašeg studija.<br></br>
+                Fotogaleriju možete pogledati na facebook profilu.
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+        
         <a
           href="static/produkcija.jpg"
           onClick={() => console.log("hello world")}
@@ -146,18 +161,7 @@ const Projects = () => {
           </div>
         </a>
 
-        <a href="static/projekt1.jpg" className="box">
-          <div className="image">
-            <img src="static/projekt1.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>Mali Split</h3>
-              <p>Mali Split 2022. i naših 26 plesača</p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
+        
       </LightGallery>
 
       <br />
