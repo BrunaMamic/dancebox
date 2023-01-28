@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="content">
             <div className="info">
               <h3>Produkcija 2022</h3>
-              <p>Održana je 4. po redu produkcija naašeg studija.<br></br>
+              <p>Održana je 4. po redu produkcija našeg studija.<br></br>
                 Fotogaleriju možete pogledati na facebook profilu.
               </p>
             </div>
@@ -85,7 +85,7 @@ const Projects = () => {
           </div>
           <div className="content">
             <div className="info">
-              <h3>2. mjesto gala večeri Dalamtian Dance festivala</h3>
+              <h3>2. mjesto gala večeri Dalmatian Dance festivala</h3>
               <p>
                 13.11.2022. <br />
                 Ovako maleni i malobrojni osvojiti 2. mjesto na Gali u top 9
@@ -105,7 +105,7 @@ const Projects = () => {
           </div>
           <div className="content">
             <div className="info">
-              <h3>Sudjelovanje na Dalmatian Dance festival-u</h3>
+              <h3>Sudjelovanje na Dalmatian Dance festivalu</h3>
               <p>
                 13.11.2022. <br />
                 Foto: @vesnabilman @dalmatian.dance.festivals
