@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import LightGallery from "lightgallery/react";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
@@ -22,6 +23,81 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/projekti16.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti16.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Mali split 2023</h3>
+              <p>
+                Izvrstan posao ste napravile drage naše.<br></br>
+                Možemo reći da ste mali profesionalci...disciplinirani,
+                talentirani, radišni i jako jako zabavni. Guštamo raditi s vama
+                i radujemo se unaprijed svim budućim projektima.<br></br>
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="static/projekti15.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti15.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>#prokurativeplesu</h3>
+              <p>
+                @splitski.festival <br></br>Great job girls ❤️<br></br>{" "}
+                📷Jadranka Luković
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="static/projekti14.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti14.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>
+                Diplome za 5 najistaknutijih plesača u 5 najaktivnijih grupa.
+              </h3>
+              <p>
+                Leona Jujnović - kadeti 1 <br></br>
+                Anja Todorović - juniori 2 <br></br>Tina Lukšić - juniori 1{" "}
+                <br></br>Lana Ajduković - seniori <br></br> Sanja Dedovići -
+                rekreacija<br></br>
+                <br></br>
+                Čestitamo vam dragi naši. Nastavite i dalje na svoj poseban,ali
+                hvale vrijedan način biti okosnica grupe u kojoj radite.
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="static/projekti13.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti13.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Neko novo iskustvo i zajedništvo.</h3>
+              <p>
+                Tri uzrasta plesača u jednoj koreografiji. Ovo je naša prva mix
+                age produkcija i radujemo se kvalifikaciji za međunarodno IDO
+                natjecanje. Veliki zagrljaj za svih 35 koliko ih je plesalo
+                Memories
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
         <a href="static/projekti12.jpg" className="box">
           <div className="image">
             <img src="static/projekti12.jpg" alt="" />
@@ -29,14 +105,15 @@ const Projects = () => {
           <div className="content">
             <div className="info">
               <h3>Produkcija 2022</h3>
-              <p>Održana je 4. po redu produkcija našeg studija.<br></br>
+              <p>
+                Održana je 4. po redu produkcija našeg studija.<br></br>
                 Fotogaleriju možete pogledati na facebook profilu.
               </p>
             </div>
             <i className="fas fa-plus"></i>
           </div>
         </a>
-        
+
         <a
           href="static/produkcija.jpg"
           onClick={() => console.log("hello world")}
@@ -160,8 +237,6 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-
-        
       </LightGallery>
 
       <br />
