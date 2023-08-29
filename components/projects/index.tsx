@@ -23,6 +23,44 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/projekti19.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti19.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>@sibenik.dance.festival</h3>
+              <p>
+                Svako put nam je gušt, ali baš gušt biti na ovoj ambijentalnoj
+                pozornici.<br></br>
+                Izvrsna organizacija i još bolja logistika festivala svakako
+                doprinose da se svake godine prijavljujemo i želimo biti dio
+                cijele priče.
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="static/projekti17.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti17.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Pripreme za @sibenik.dance.festival</h3>
+              <p>
+                Pripreme su u tijeku, a ove godine po prvi puta izaći ćemo s
+                predstavom <br></br>
+                pod koreografski palicom Barbare Mamić @mamicbarbara <br></br>U
+                predstavi sudjeluju naši članovi koji su u ožujku uspješno
+                položili audiciju.<br></br>
+                Riječ je o plesačima u rasponu od 7 do 18 godina.<br></br>📷
+                @j_a_d_r_o
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
         <a href="static/projekti16.jpg" className="box">
           <div className="image">
             <img src="static/projekti16.jpg" alt="" />
@@ -201,38 +239,6 @@ const Projects = () => {
           <div className="content">
             <div className="info">
               <h3>Race for the cure</h3>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
-
-        <a href="static/projekt10.jpg" className="box">
-          <div className="image">
-            <img src="static/projekt10.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>Proslava 10. godišnjice kluba</h3>
-              <p>
-                3.9.2022. <br />
-                Photo by @mdphotography18
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
-
-        <a href="static/projekti.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>Šibenski plesni festival</h3>
-              <p>
-                Čestitke svim našim voditeljima i plesačima koji su uložili
-                izniman trud i energiju kako bi ova godina bila uspješna...
-              </p>
             </div>
             <i className="fas fa-plus"></i>
           </div>
