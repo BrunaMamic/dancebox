@@ -9,10 +9,11 @@ const Header = ({ setContactSideBarOpen, contactSideBarOpen, setDocSidebarOpen, 
       </a>
 
       <nav className={`navbar ${navbarMobile ? "active" : ""}`}>
-        <a href="#home">Naslovnica</a>
+        {/* <a href="#home">Naslovnica</a> */}
         <a href="#about">O nama</a>
         <a href="#services">Program</a>
         <a href="#projects">Projekti</a>
+        <a href="#plan">Plan i program</a>
         <a href="#voditelji">Voditelji</a>
         <a href="#contact">Kontakt</a>
       </nav>

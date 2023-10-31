@@ -13,6 +13,7 @@ import Mentors from "../components/mentors";
 import ContactUs from "../components/contactUs";
 import Footer from "../components/footer";
 import { useState } from "react";
+import Plan from "../components/plan";
 
 const App: NextPage = () => {
   const [contactSideBarOpen, setContactSideBarOpen] = useState(false);
@@ -37,6 +38,7 @@ const App: NextPage = () => {
       <Home />
       <Info />
       <Services />
+      <Plan />
       <Projects />
       <Mentors />
       <ContactUs />
