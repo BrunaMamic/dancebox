@@ -1,50 +1,79 @@
-.naslovPlan{
-    font-size: 3rem;
-    /* font-family: -webkit-body; */
-    color: rgb(170, 126, 126);
-    
+.naslovPlan {
+  font-size: 3rem;
+  /* font-family: -webkit-body; */
+  color: rgb(170, 126, 126);
 }
 
-.plan{
-    background-color: #052b24ed;
+.plan {
+  background-color: #052b24ed;
 }
 
-.planProgram{
-    display: flex;
-    color: #bfc9c5;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 66px;
+.tri,
+.cetri {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* .planData{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+.planProgram {
+  /* display: flex; */
+  color: #bfc9c5;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 66px;
+}
 
-.planDataSpec{
-    /* background: #146356; */
-    /* background: red; */
-    padding-bottom: 14px;
-    padding-left: 5px;
-    margin: 19px;
-    font-size: 1.8rem;
-    border: 2px solid #146356;
-    width: 44rem;
-    height: 14rem;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: center;
+.planData {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.planDataSpec {
+  /* background: #146356; */
+  /* background: red; */
+  padding-bottom: 14px;
+  padding-left: 5px;
+  margin: 19px;
+  font-size: 1.8rem;
+  border: 2px solid #146356;
+  width: 44rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 @media (max-width: 460px) {
-    .planDataSpec {
-        margin: 7px;
-        font-size: 1.5rem;
-        width: 37rem;
-        height: 14rem;
-    }
+  .planDataSpec {
+    margin: 7px;
+    font-size: 1.5rem;
+    width: 37rem;
+    height: 14rem;
   }
+}
+
+@media (max-width: 1443px) {
+  .planProgram {
+    display: flex;
+    color: #bfc9c5;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 66px;
+  }
+}
+
+@media (max-width: 856px) {
+  .planProgram {
+    flex-direction: column;
+  }
+
+  .planData {
+    justify-content: center;
+  }
+}
