@@ -23,6 +23,23 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/projekti20.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti20.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Europsko prvenstvo</h3>
+              <p>
+                Cure nam se na Europskom prvenstvu u show dance-u nisu plasirale
+                u polufinale, <br></br> ali zauzevši 17. mjesto pokazale su da su spremne
+                nositi se s jakom europskom konkurencijom. Ovo je bila samo još
+                jedna stepenica koja vodi prema gore.
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
         <a href="static/projekti19.jpg" className="box">
           <div className="image">
             <img src="static/projekti19.jpg" alt="" />
@@ -78,23 +95,6 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-
-        <a href="static/projekti15.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti15.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>#prokurativeplesu</h3>
-              <p>
-                @splitski.festival <br></br>Great job girls ❤️<br></br>{" "}
-                📷Jadranka Luković
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
-
       </LightGallery>
 
       <br />
