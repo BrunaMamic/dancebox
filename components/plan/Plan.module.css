@@ -16,6 +16,11 @@
   justify-content: center;
 }
 
+.checkmark {
+  color: green; 
+  font-size: 3rem; 
+}
+
 .planProgram {
   /* display: flex; */
   color: #bfc9c5;

@@ -21,20 +21,23 @@ const Plan = () => {
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Lasko, Slovenija 09. - 12.11.2023
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
                 <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>Dalmatian dance festival</p>
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Split 26.11.2023
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
                 <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>
-                    Godisnja produkcija studija
+                    Godišnja produkcija studija
                   </p>
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Split, 16.12.2023
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
               </div>
             </div>
@@ -63,7 +66,7 @@ const Plan = () => {
                     Velika Gorica, 29.05-02.06.2023
                   </p>
                 </div>
-                
+
                 {/* <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>
                   Europsko prvenstvo modern, jazz, balet i show dance
