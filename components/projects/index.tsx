@@ -23,7 +23,44 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
-       
+        <a href="static/projekti25.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti25.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Dance explosion u Dubrovniku</h3>
+              <p>
+                Misiju Dubrovnik smo završili i to vrlo zadovoljavajuće i s puno
+                lijepih momenata. Nekima je ovo bilo prvo noćenje s plesnim
+                prijateljicama, nekima prvo uopće odvajanje od roditelja, a
+                nekim još jedno u nizu putovanja s nama. Sve u svemu, idemo
+                dalje. 
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="static/projekti24.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti24.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Državno prvenstvo osnovnih i srednjih škola u plesu.</h3>
+              <p>
+                Stižu nam vijesti iz Poreča gdje je jučer završeno državno
+                prvenstvo osnovnih i srednjih škola u plesu. Naše cure koje su
+                plesale za osnovnu školu Mertojak zauzele su 9.mjesto u
+                konkurenciji 20 timova osnovnih škola. Čestitamo curama,
+                profesorici Mariji i naravno OŠ Mertojak
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+
         <a href="static/projekti23.jpg" className="box">
           <div className="image">
             <img src="static/projekti23.jpg" alt="" />
@@ -58,42 +95,6 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-        <a href="static/projekti20.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti20.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>Europsko prvenstvo</h3>
-              <p>
-                Cure nam se na Europskom prvenstvu u show dance-u nisu plasirale
-                u polufinale, <br></br> ali zauzevši 17. mjesto pokazale su da
-                su spremne nositi se s jakom europskom konkurencijom. Ovo je
-                bila samo još jedna stepenica koja vodi prema gore.
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
-        <a href="static/projekti19.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti19.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>@sibenik.dance.festival</h3>
-              <p>
-                Svako put nam je gušt, ali baš gušt biti na ovoj ambijentalnoj
-                pozornici.<br></br>
-                Izvrsna organizacija i još bolja logistika festivala svakako
-                doprinose da se svake godine prijavljujemo i želimo biti dio
-                cijele priče.
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
-
       </LightGallery>
 
       <br />

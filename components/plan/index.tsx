@@ -44,20 +44,26 @@ const Plan = () => {
             <div className={style.cetri}>
               <div className={style.naslovPlan}>2024.</div>
               <div className={style.planData}>
-                <div className={style.planDataSpec}>
-                  <p style={{ fontSize: "2.1rem" }}>Dance Fest Novi Sad</p>
-                  <p style={{ color: "rgb(170 126 126 / 51%)" }}>
-                    Novi Sad, 22.-24.03.2024
-                  </p>
-                </div>
+  
                 <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>
-                    Kvalifikacije za IDO / Dance explosion HPS
+                    Kvalifikacije za IDO / Dance explosion
                   </p>
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Dubrovnik, 05.-07.04.2024
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
+
+                <div className={style.planDataSpec}>
+                  <p style={{ fontSize: "2.1rem" }}>
+                    Dalmatian dance Festival
+                  </p>
+                  <p style={{ color: "rgb(170 126 126 / 51%)" }}>
+                    Split, 28.04.2024
+                  </p>
+                </div>
+                
                 <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>
                     Kvalifikacije za IDO / Dance explosion HPS
