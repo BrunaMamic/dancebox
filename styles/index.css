@@ -12,6 +12,7 @@
   /*--box-shadow:0 .5rem 1rem rgba(0,0,0,.1);*/
   /*--border:.1rem solid rgba(0,0,0,.3);*/
   width: 100vw;
+  height: 100vh;
 }
 
 * {
@@ -28,7 +29,7 @@
 
 html {
   /*font-size: 62.5%;*/
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
   /*scroll-behavior: smooth;*/
   /*scroll-padding-top: 7rem;*/
 }
@@ -598,7 +599,7 @@ h3 span {
 }
 
 .voditelji .box-container .box .content .info{
-  padding: 1rem 2rem;
+  padding: 30px 0;
   color: rgb(170, 126, 126);
 }
 
@@ -722,6 +723,16 @@ h3 span {
   }
   .home .slide .content h3 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .voditelji .box-container {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .voditelji .box-container .box {
+    width: auto;
   }
 }
 

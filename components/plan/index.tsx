@@ -62,6 +62,7 @@ const Plan = () => {
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Split, 28.04.2024
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
                 
                 <div className={style.planDataSpec}>

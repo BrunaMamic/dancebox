@@ -11,7 +11,7 @@ import { Router, useRouter } from "next/router";
 const Projects = () => {
   const openFacebookGallery = () => {
     window.open(
-      "https://www.facebook.com/PlesniStudioDanceBox/photos",
+      "https://www.facebook.com/PlesniStudioDanceBox/photos_by",
       "_blank"
     );
   };
@@ -23,6 +23,24 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/projekti26.jpg" className="box">
+          <div className="image">
+            <img src="static/projekti26.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Dalmatian dance festival</h3>
+              <p>
+              <b>Klub s najviše osvojenih pehara u grupama, formacijama i produkcijama <br/></b>
+                Ne može bolje za Svjetski dan plesa nego biti pobjednik
+                cjelokupnog natjecanja. @dalmatian.dance.festivals Srce nam je
+                veliko ko kuća 💗 Hvala organizatorima @jureleskur_pk_lambada i
+                @ivana_zanetic_pk_lambada
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
         <a href="static/projekti25.jpg" className="box">
           <div className="image">
             <img src="static/projekti25.jpg" alt="" />
@@ -35,7 +53,7 @@ const Projects = () => {
                 lijepih momenata. Nekima je ovo bilo prvo noćenje s plesnim
                 prijateljicama, nekima prvo uopće odvajanje od roditelja, a
                 nekim još jedno u nizu putovanja s nama. Sve u svemu, idemo
-                dalje. 
+                dalje.
               </p>
             </div>
             <i className="fas fa-plus"></i>
@@ -78,23 +96,6 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-        <a href="static/projekti21.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti21.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <p>
-                Na osmom izdanju Dalmatinskog plesnog festivala sudjelovali smo
-                s 78 plesača i 13 koreografija. Rame uz rame s dobrom energijom
-                naravno da stižu i dobri rezultati 🤗 <br></br>
-                Čestitamo svim plesačima na sjajnim rezultatima, a posebno hvala
-                našoj alfi i omegi Ines Mamić!
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
       </LightGallery>
 
       <br />
@@ -103,7 +104,7 @@ const Projects = () => {
         <p>
           Foto galerija:
           <a
-            href="https://www.facebook.com/PlesniStudioDanceBox/photos"
+            href="https://www.facebook.com/PlesniStudioDanceBox/photos_by"
             className="fab fa-facebook-f ms-3"></a>
         </p>
       </div>
