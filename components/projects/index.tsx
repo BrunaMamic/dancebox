@@ -23,6 +23,42 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/project28.jpg" className="box">
+          <div className="image">
+            <img src="static/project28.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>@darebelsdancecampbihac</h3>
+              <p>
+                Ova naša mala četa mladih plesača otisnula se u novi izazov
+                zvani 12 plesnih radionica unutar 4 dana u Bihaću u više
+                neznanim nego znanim stilovima. Bilo je tu jazz-a, modernog, ali
+                i impro i free styla sa vrhunskim plesnim predavačima iz
+                Nizozemske, Bosne i Hercegovine i Slovenije. Što reći osim da su
+                se vratili ispunjeni i s novim idolima i osobama koje ih
+                inspiriraju u plesu. Zahvaljujemo @darebelsdancecampbihac na
+                odličnoj organizaciji i predavačima
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="static/project27.jpg" className="box">
+          <div className="image">
+            <img src="static/project27.jpg" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>Kvalifikacije za IDO Velika Gorica, 29.05-02.06.2023</h3>
+              <p>
+                Samo nekoliko divotica od naših proteklih 5 dana u Velikoj
+                Gorici. @photostudiostill
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
         <a href="static/projekti26.jpg" className="box">
           <div className="image">
             <img src="static/projekti26.jpg" alt="" />
@@ -31,7 +67,10 @@ const Projects = () => {
             <div className="info">
               <h3>Dalmatian dance festival</h3>
               <p>
-              <b>Klub s najviše osvojenih pehara u grupama, formacijama i produkcijama <br/></b>
+                <b>
+                  Klub s najviše osvojenih pehara u grupama, formacijama i
+                  produkcijama <br />
+                </b>
                 Ne može bolje za Svjetski dan plesa nego biti pobjednik
                 cjelokupnog natjecanja. @dalmatian.dance.festivals Srce nam je
                 veliko ko kuća 💗 Hvala organizatorima @jureleskur_pk_lambada i
@@ -59,7 +98,7 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-
+        {/* 
         <a href="static/projekti24.jpg" className="box">
           <div className="image">
             <img src="static/projekti24.jpg" alt="" />
@@ -77,9 +116,9 @@ const Projects = () => {
             </div>
             <i className="fas fa-plus"></i>
           </div>
-        </a>
+        </a> */}
 
-        <a href="static/projekti23.jpg" className="box">
+        {/* <a href="static/projekti23.jpg" className="box">
           <div className="image">
             <img src="static/projekti23.jpg" alt="" />
           </div>
@@ -95,7 +134,7 @@ const Projects = () => {
             </div>
             <i className="fas fa-plus"></i>
           </div>
-        </a>
+        </a> */}
       </LightGallery>
 
       <br />

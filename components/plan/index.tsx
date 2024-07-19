@@ -44,7 +44,6 @@ const Plan = () => {
             <div className={style.cetri}>
               <div className={style.naslovPlan}>2024.</div>
               <div className={style.planData}>
-  
                 <div className={style.planDataSpec}>
                   <p style={{ fontSize: "2.1rem" }}>
                     Kvalifikacije za IDO / Dance explosion
@@ -56,22 +55,19 @@ const Plan = () => {
                 </div>
 
                 <div className={style.planDataSpec}>
-                  <p style={{ fontSize: "2.1rem" }}>
-                    Dalmatian dance Festival
-                  </p>
+                  <p style={{ fontSize: "2.1rem" }}>Dalmatian dance Festival</p>
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Split, 28.04.2024
                   </p>
                   <div className={style.checkmark}>✔</div>
                 </div>
-                
+
                 <div className={style.planDataSpec}>
-                  <p style={{ fontSize: "2.1rem" }}>
-                    Kvalifikacije za IDO / Dance explosion HPS
-                  </p>
+                  <p style={{ fontSize: "2.1rem" }}>Kvalifikacije za IDO</p>
                   <p style={{ color: "rgb(170 126 126 / 51%)" }}>
                     Velika Gorica, 29.05-02.06.2023
                   </p>
+                  <div className={style.checkmark}>✔</div>
                 </div>
 
                 {/* <div className={style.planDataSpec}>
