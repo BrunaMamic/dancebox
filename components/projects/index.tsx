@@ -23,6 +23,22 @@ const Projects = () => {
       <LightGallery
         onBeforeOpen={() => openFacebookGallery()}
         elementClassNames={"box-container"}>
+        <a href="static/raspored24.png" className="box">
+          <div className="image">
+            <img src="static/raspored24.png" alt="" />
+          </div>
+          <div className="content">
+            <div className="info">
+              <h3>UPISI NOVIH ČLANOVA ZA SEZONU 2024/25</h3>
+              <p>
+                Dragi prijatelji, roditelji i ostali koji se želite priključiti
+                našem studiju, popunite prijavnicu na facebook ili instagram
+                profilu i postanite dio našeg plesnog tima.
+              </p>
+            </div>
+            <i className="fas fa-plus"></i>
+          </div>
+        </a>
         <a href="static/project28.jpg" className="box">
           <div className="image">
             <img src="static/project28.jpg" alt="" />
@@ -80,24 +96,7 @@ const Projects = () => {
             <i className="fas fa-plus"></i>
           </div>
         </a>
-        <a href="static/projekti25.jpg" className="box">
-          <div className="image">
-            <img src="static/projekti25.jpg" alt="" />
-          </div>
-          <div className="content">
-            <div className="info">
-              <h3>Dance explosion u Dubrovniku</h3>
-              <p>
-                Misiju Dubrovnik smo završili i to vrlo zadovoljavajuće i s puno
-                lijepih momenata. Nekima je ovo bilo prvo noćenje s plesnim
-                prijateljicama, nekima prvo uopće odvajanje od roditelja, a
-                nekim još jedno u nizu putovanja s nama. Sve u svemu, idemo
-                dalje.
-              </p>
-            </div>
-            <i className="fas fa-plus"></i>
-          </div>
-        </a>
+
         {/* 
         <a href="static/projekti24.jpg" className="box">
           <div className="image">
